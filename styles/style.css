@@ -12,7 +12,11 @@ body{
 
 }
 /* .....frist section star ....*/
-.container{      
+
+
+.container{ 
+    width: 1300px;
+height: 640px;
     display: flex;
     background: #1E1E1E;    
     align-items: center;  
@@ -20,19 +24,22 @@ body{
     padding: 30px 50px;
     flex-wrap: wrap;
     border-radius: 5px;
-   
+
+    
 }
+
 .text-h{
     color:#FFFFFF;
     font-weight: 700;
     font-size: 40px;
+    gap: 20px;
    
 }
 .text-p{
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
-    
+    gap: 20px;
 }
 .primary-button{
         display: flex;
@@ -60,61 +67,14 @@ body{
 
 /* ,,,second section star ,,,*/
 
-.section-2{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
+
 .div-1{
     width: 312px;
     height: 312px;
     border-radius: 10px;
     margin-left: 150px; 
    background-color: #161616;
-
-
 } 
-.div-2{
-    display: flex;
-    width: 312px;
-    height: 175px;
-    background: url(Egypt-Senegal-1024x683.jpg);
-    border-radius: 10px 10px 0px 0px;
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-left: 150px; 
-}
-.second-button{
-    width: 100px;
-    height: 32px;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-left: 150px;  
-}
-
-.course-detail{
-    width: 272px;
-    height: 54px;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 20px;
-
-    color: #161616;
-    border-radius: 10px;
-    margin-left: 150px; 
-
-}
-.course-info{
-    display: flex;
-    border-radius: 10px;
-    margin-left: 150px; 
-   display: flex;
-}
-.fa-regular fa-clock{
-    border-radius: 10px;
-    margin-left: 150px; 
-    display: flex;
-}
-
 
 .button-one{
    width: 252px; 
@@ -136,7 +96,19 @@ body{
    border-radius: 5px;
    margin: 12px 20px;
 }    
+.section-2{
+display: grid;
+grid-template-columns: repeat(3,1fr);
 
-.course-duration{
-    display: flex;
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px; 
+} 
+.div-2{
+    padding: 10px;
+    border-radius: 5px;
 }
